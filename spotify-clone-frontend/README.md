@@ -39,7 +39,7 @@ That's it! No additional setup or dependencies required.
 - HTML5
 - CSS3 (Grid, Flexbox, Media Queries)
 - JavaScript 
-- Font Awesome for icons
+- Font Awesome for icons.
 
 ## Browser Support
 
