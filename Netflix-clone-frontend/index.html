@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more."
+    />
+    <meta
+      name="keywords"
+      content="netflix, movies, tv shows, online streaming, entertainment"
+    />
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix Logo"
+            class="netflix-logo"
+          />
+        </div>
+        <div class="nav-right">
+          <select class="language-select">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
+          <button class="sign-in-btn">Sign In</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Unlimited movies, TV shows and more</h1>
+          <p class="hero-subtitle">Starts at ₹149. Cancel at any time.</p>
+          <p class="hero-text">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="email-signup">
+            <input
+              type="email"
+              placeholder="Email address"
+              class="email-input"
+            />
+            <button class="get-started-btn">
+              Get Started <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="trending">
+        <h2>Trending Now</h2>
+        <div class="trending-grid">
+          <div class="trending-item" data-rank="1">
+            <img
+              src="path_to_dragon_image.jpg"
+              alt="Dragon"
+              class="trending-poster"
+            />
+            <div class="rank">1</div>
+          </div>
+          <!-- More trending items will be added dynamically via JavaScript -->
+        </div>
+      </section>
+
+      <section class="plans">
+        <h2>A plan to suit your needs</h2>
+        <div class="plans-grid">
+          <div class="plan-card mobile">
+            <h3>Mobile</h3>
+            <p class="price">₹149/mo</p>
+            <ul>
+              <li>Good video quality</li>
+              <li>For your phone or tablet</li>
+            </ul>
+          </div>
+          <div class="plan-card basic">
+            <h3>Basic</h3>
+            <p class="price">₹199/mo</p>
+            <ul>
+              <li>Good video quality</li>
+              <li>For your phone, tablet, laptop and TV</li>
+            </ul>
+          </div>
+          <div class="plan-card standard">
+            <h3>Standard</h3>
+            <p class="price">₹499/mo</p>
+            <ul>
+              <li>Better video quality</li>
+              <li>For your phone, tablet, laptop and TV</li>
+            </ul>
+          </div>
+          <div class="plan-card premium">
+            <h3>Premium</h3>
+            <p class="price">₹649/mo</p>
+            <ul>
+              <li>Best video quality</li>
+              <li>For your phone, tablet, laptop and TV</li>
+              <li>Ultra HD available</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
